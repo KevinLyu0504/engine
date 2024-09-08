@@ -2,7 +2,7 @@
 #include "RigidBody.h"
 
 int main() {
-    // 创建一个刚体
+    // 创建一个刚体111111
     RigidBody body(Vector2D(0, 0), Vector2D(1, 0), Vector2D(0, -9.8), 1.0f);  // 初始位置(0,0)，速度(1,0)，加速度(0,-9.8)，质量1.0
 
     float deltaTime = 0.016f; // 假设每帧的时间步长为16毫秒 (60 FPS)
